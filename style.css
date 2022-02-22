@@ -1,0 +1,40 @@
+*{
+  font-family: sans-serif;
+}
+
+body{
+
+}
+textarea {
+  resize: none;
+}
+
+.textContainer{
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+#confirmButton {
+  font-size: 1.3rem;
+  padding: 10px;
+  background-color: DodgerBlue;
+  color: white;
+  border: 0px;
+  border-radius: 15px;
+}
+
+#confirmButton:hover{
+  opacity: 0.5;
+}
